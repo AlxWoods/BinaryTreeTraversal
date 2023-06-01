@@ -28,14 +28,14 @@ namespace BinaryTreeTraversal
             IList<int> postOrderTraversalResult = postOrder.PostorderTraversal(root);
             IList<int> preOrderTraversalResult = preOrder.PreorderTraversal(root);
 
-            // Print the traversal results
-            Console.WriteLine("In-order Traversal:");
-            foreach (int val in inOrderTraversalResult)
+            Console.WriteLine("\nPre-order Traversal:");
+            foreach (int val in preOrderTraversalResult)
             {
                 Console.Write(val + " ");
             }
-            Console.WriteLine("\nPre-order Traversal:");
-            foreach (int val in preOrderTraversalResult)
+            // Print the traversal results
+            Console.WriteLine("\nIn-order Traversal:");
+            foreach (int val in inOrderTraversalResult)
             {
                 Console.Write(val + " ");
             }
